@@ -1,0 +1,84 @@
+<!--Caelen Rutzen-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Chinese Take-In is a great learning experience with both cooking and gaining new friends in the process.">
+		<meta name="viewport" content="width=device-width, initial-scale-1"> 
+		<title>Chinese Take-In | Booking</title>
+		<link href="styles.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<a href="index.html"><img class="logo" src="images/logo.png" height="100" width="400" alt="Chinese Take In Logo"></a>
+			<h1>Booking</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="booking.html">Booking</a></li>
+			</ul>
+		</nav>
+		<main class="page">
+			<h2>Class Pricing</h2>
+				<p>When you pay the $40, you pay for both classes. We like to keep the entrance price cheap for our students, so that they will have funds left over for grocery shopping for ingredients.
+				 This price applies to two students because we like our students to work with a partner. This helps build a bond between two chefs, and allows our students to learn how working in a team environment can help a kitchen run efficiently.</p>
+			<h2>Class Booking</h2>
+				<p>In order to sign up for a class, you need to check the class schedule. If the Monday/Wednesday class is filled up for the week, you can either sign up for the Tuesday/Thursday class (assuming it is also not filled up), or sign up for the Monday/Wednesday class for the following week.
+				 We recommend that you sign up for the classes a few weeks ahead of time, so that you and your partner can schedule a few hours free for each class!</p>
+			<div id="flex2">
+				<h3>Egg Rolls</h3>
+					<img class="eggroll" src="images/eggroll.jpg" height="300" width="400" alt="Egg Roll dish">
+					<p>A cabbage and pork dish wrapped in a egg dough and deep fried to golden brown. 
+					This class is an intermediate level class and is recommended for people with experience in cooking.</p>
+				<h3>Stir Fry</h3>
+					<img class="stirfry" src="images/StirFry.jpg" height="300" width="400" alt="Stir Fry dish">
+					<p>A popular dish that includes Broccoli, Carrots, Onions, and more along with a protein of choice. 
+					This class is a beginner course and is recommended for people wanting to learn cooking for the first time.</p>
+				<h3>Sushi</h3>
+					<img class="sushi" src="images/sushi.jpg" height="300" width="400" alt="Sushi dish">
+					<p>A popular dish that has many different varieties includes different proteins and vegetables. 
+					This class is a intermediate course and is recommended for people who have experience in the kitchen or have taken our classes before.</p> 
+	 	 		<h3>Ramen</h3>
+	 	 			<img class="ramen" src="images/ramen.jpg" height="300" width="400" alt="Ramen dish">
+	 	 			<p>Ramen is an advanced, but delicious dish that everyone should know how to make by hand instead of by the package. 
+	 	 			It is customizable to the person making it and has been a favorite food for a lot of people. 
+	 	 			This class is an advanced class and is only recommended for people with a lot of experience in the kitchen and feels comfortable cooking asian cuisine.</p>
+	 	 	</div>
+	 	 	<form name="signup" method="post" id="signup" action="http://webdevbasics.net/scripts/demo.php">
+	 	 		<label  for="myFirstName">*First Name</label>
+				<input type="text" name="myFirstName" id="myFirstName" required="required" placeholder="Your First Name">
+				<label for="myLastName">*Last Name</label>
+				<input type="text" name="myLastName" id="myLastName" required="required" placeholder="Your Last Name">
+				<label for="myEmail">*Email</label>
+				<input type="email" name="myEmail" id="myEmail" required="required" placeholder="you@yourdomain.com">
+				<label for="myPhone">*Phone Number</label>
+				<input type="tel" name="myPhone" id="myPhone" required="required" placeholder="Your Phone Number">
+				<select size="1" name="date" id="date">
+					<option>Select Your Dish</option>
+					<option value="Egg Rolls">Egg Rolls (Nov. 5-7)</option>
+					<option value="Stir Fry">Stir Fry (Nov. 6-8)</option>
+					<option value="Sushi">Sushi (Nov. 12-14)</option>
+					<option value="Ramen">Ramen (Nov. 13-15)</option>
+				</select>
+				<select size="1" name="guests" id="guests">
+					<option># of Guests</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select>
+				<input type="submit" value="Reserve">
+	 	 	</form>
+	 	 	
+		</main>
+		<footer>
+			Phone: <a href="tel:4805555555">(480) 555 5555</a><br>
+			Email: <a href="mailto:contact@chinesetakein.com">contact@chinesetakein.com</a><br>
+			Address: <a href="https://www.google.com/maps/place/1007+S+McClintock+Dr,+Tempe,+AZ+85281/@33.4177689,-111.9096326,19z/data=!3m1!4b1!4m5!3m4!1s0x872b08f6c28fc475:0xdd3b3671b858366c!8m2!3d33.4177689!4d-111.9090784">
+			1007 S McClintock Dr, Tempe, AZ 85281</a><br>
+			<img class="map" src="images/maps.png" height="260" width="512" alt="Map of Chinese Take-In">
+		</footer>
+	</body>
+</html>
